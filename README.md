@@ -1,93 +1,143 @@
-# 📊 Superstore Sales Analysis Dashboard
+📊 Superstore Sales Analysis Dashboard
+🔍 Project Overview
 
-## 🔍 Project Overview
-This project focuses on analyzing a retail Superstore dataset using Power BI to generate meaningful business insights. The dashboard helps in understanding sales performance, profit trends, customer behavior, and operational efficiency.
+This project analyzes a retail Superstore dataset using Power BI to generate actionable business insights. The dashboard focuses on sales performance, profitability, customer behavior, and shipping efficiency to support data-driven decision making.
 
-## 📁 Dataset Information
-- Source: Kaggle - Superstore Sales Dataset  
-- Format: CSV  
-- Total Records: ~50,000+ rows  
-- Columns: ~20–22  
+📁 Dataset Information
+Source: Kaggle – Superstore Sales Dataset
+Format: CSV
+Records: ~50,000+ rows
+Columns: ~20–22
+Key Fields:
+Order Details: Order ID, Order Date, Ship Date, Order Priority
+Customer Info: Customer Name, Segment
+Location: Country, State, Region, Market
+Product Info: Category, Sub-Category, Product Name
+Metrics: Sales, Profit, Quantity, Discount, Shipping Cost
+🧹 Data Cleaning (Excel)
+Removed duplicate records
+Checked and handled missing values
+Converted data types (Date, Numeric, Text)
+Created new column:
+Profit Margin = Profit / Sales
+Extracted Year from Order Date
+🔗 Data Modeling
+Single-table dataset used
+No relationships required
+Optimized for direct visualization in Power BI
+📊 Dashboard Explanation (Chart-wise)
+📌 Page 1: Executive Overview
+KPI Cards
+Total Sales, Profit, Orders, Customers
+👉 Gives a quick snapshot of overall business performance
+Line Chart (Sales & Profit Trend)
 
-### Key Columns:
-- Order ID, Order Date, Ship Date  
-- Customer Name, Segment  
-- Region, Market, State, Country  
-- Product Category & Sub-Category  
-- Sales, Quantity, Discount, Profit, Shipping Cost, Year  
+👉 Shows monthly growth pattern
+👉 Helps identify seasonal trends
 
+Donut Chart (Sales by Segment)
 
-## 🧹 Data Cleaning
-The dataset was cleaned using Excel before loading into Power BI:
-- Removed duplicates  
-- Checked for null/missing values  
-- Ensured correct data types (Date, Numeric, Text)  
-- Created **Profit Margin column**:  
-  Profit Margin = Profit / Sales  
-- Extracted Year from Order Date  
+👉 Consumer segment contributes the highest sales
+👉 Home Office is the lowest contributor
 
+Bar Chart (Sales by Market)
 
-## 🔗 Data Modeling
-- Single table dataset used  
-- No relationships required  
-- Data structured for direct visualization
-  ---
+👉 APAC and US generate highest revenue
+👉 Canada & Africa are low-performing markets
 
-## 📊 Dashboard Explanation
+Map (Sales by Country)
 
-### 📌 Page 1: Executive Overview
-![Executive Overview](page1.png)
+👉 Visual geographic distribution of sales
 
-**Insights:**
-- Displays overall sales, profit, and orders  
-- Sales trend observed over time  
-- High discount leads to lower profit  
+Scatter Plot (Discount vs Profit)
 
----
+👉 High discount → Low or negative profit
+👉 Shows inefficient pricing strategy
 
-### 📌 Page 2: Sales Analysis
-![Sales Analysis](page2.png)
+📌 Page 2: Sales Analysis
+Bar Chart (Sales by Sub-Category)
 
-**Insights:**
-- Identifies top-selling products  
-- Shows sales performance by segment  
-- Consumer segment contributes highest sales  
+👉 Top products: Phones, Copiers
+👉 Low sales: Binders, Machines
 
----
+Column Chart (Sales by Year & Category)
 
-### 📌 Page 3: Profit & Cost Analysis
-![Profit Analysis](page3.png)
+👉 Sales increasing year by year
+👉 Technology category growing fastest
 
-**Insights:**
-- Highlights profit distribution  
-- Some products have high sales but low profit  
-- Shipping cost affects profitability  
+Line Chart (Monthly Sales Trend)
 
----
+👉 Peak sales in later months (Nov–Dec)
+👉 Seasonal demand pattern observed
 
-### 📌 Page 4: Customer & Shipping
-![Customer Analysis](page4.png)
+Segment Analysis
 
-**Insights:**
-- Top customers contribute major revenue  
-- Standard shipping is most used  
-- Order priority trends observed  
+👉 Consumer segment dominates sales
+👉 Corporate segment steady growth
 
+📌 Page 3: Profit & Cost Analysis
+Waterfall Chart (Profit by Sub-Category)
 
+👉 Shows contribution of each product to total profit
+👉 Some products reduce overall profit
 
-## 🎯 Key Learnings
-- Learned Power BI dashboard creation  
-- Understood data cleaning and preprocessing  
-- Gained insights into business performance  
-- Improved data visualization skills  
+Scatter Plot (Sales vs Profit)
 
----
+👉 High sales doesn’t always mean high profit
+👉 Identifies low-margin products
 
-## 🛠 Tools Used
-- Power BI  
-- Microsoft Excel  
+Bar Chart (Profit by Region & Category)
 
----
+👉 Some regions perform better in specific categories
 
-## 📂 How to Use
-Download the `.pbix` file and open it using Power BI Desktop.
+Combo Chart (Sales vs Discount)
+
+👉 High discounts reduce profitability
+
+Funnel Chart (Order Priority)
+
+👉 Most orders are Medium priority
+👉 Critical orders are very few
+
+📌 Page 4: Customer & Shipping Analysis
+Bar Chart (Top Customers)
+
+👉 Few customers contribute large revenue (Pareto effect)
+
+Donut Chart (Sales by Segment)
+
+👉 Consumer segment dominates again
+
+Bar Chart (Shipping Cost by Ship Mode)
+
+👉 Standard class used most
+👉 Same-day shipping least used
+
+Line Chart (Delivery Days Trend)
+
+👉 Delivery time varies monthly
+👉 Possible logistics inefficiency
+
+Stacked Bar (Orders by Region & Ship Mode)
+
+👉 Standard shipping dominates across regions
+
+🎯 Key Insights
+High discounts reduce profitability
+Consumer segment is the largest revenue contributor
+APAC & US are top-performing markets
+Some products generate high sales but low profit
+Shipping cost impacts overall margins
+Few customers contribute majority of revenue
+🛠 Tools Used
+Power BI
+Microsoft Excel
+📂 How to Use
+
+Download the .pbix file and open it in Power BI Desktop to explore interactive dashboards.
+
+🎓 Key Learnings
+Data cleaning & preprocessing
+Dashboard design & storytelling
+Business insight generation
+Data visualization best practices
