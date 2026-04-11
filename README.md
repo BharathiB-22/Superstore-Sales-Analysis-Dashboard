@@ -52,89 +52,89 @@ This project analyzes a retail Superstore dataset using Power BI to generate act
 - Total Orders  
 - Total Customers  
 
-👉 Provides a quick snapshot of overall business performance  
+     Provides a quick snapshot of overall business performance  
 
 #### 📈 Line Chart (Sales & Profit Trend)
-👉 Shows monthly growth pattern  
-👉 Helps identify seasonal trends  
+    Shows monthly growth pattern  
+    Helps identify seasonal trends  
 
-#### 🍩 Donut Chart (Sales by Segment)
-👉 Consumer segment contributes the highest sales  
-👉 Home Office is the lowest contributor  
+#### Donut Chart (Sales by Segment)
+      Consumer segment contributes the highest sales  
+      Home Office is the lowest contributor  
 
 #### 📊 Bar Chart (Sales by Market)
-👉 APAC and US generate highest revenue  
-👉 Canada & Africa are low-performing markets  
+     APAC and US generate highest revenue  
+     Canada & Africa are low-performing markets  
 
 #### 🌍 Map (Sales by Country)
-👉 Displays geographic distribution of sales  
+    Displays geographic distribution of sales  
 
 #### ⚡ Scatter Plot (Discount vs Profit)
-👉 High discount → Low or negative profit  
-👉 Indicates inefficient pricing strategy  
+    High discount → Low or negative profit  
+    Indicates inefficient pricing strategy  
 
 ---
 
 ### 📌 Page 2: Sales Analysis
 
 #### 📊 Bar Chart (Sales by Sub-Category)
-👉 Top products: Phones, Copiers  
-👉 Low sales: Binders, Machines  
+    Top products: Phones, Copiers  
+    Low sales: Binders, Machines  
 
 #### 📊 Column Chart (Sales by Year & Category)
-👉 Sales increasing year by year  
-👉 Technology category growing fastest  
+    Sales increasing year by year  
+    Technology category growing fastest  
 
 #### 📈 Line Chart (Monthly Sales Trend)
-👉 Peak sales in later months (Nov–Dec)  
-👉 Shows seasonal demand pattern  
+    Peak sales in later months (Nov–Dec)  
+    Shows seasonal demand pattern  
 
 #### 👥 Segment Analysis
-👉 Consumer segment dominates sales  
-👉 Corporate segment shows steady growth  
+    Consumer segment dominates sales  
+    Corporate segment shows steady growth  
 
 ---
 
 ### 📌 Page 3: Profit & Cost Analysis
 
 #### 📊 Waterfall Chart (Profit by Sub-Category)
-👉 Shows contribution of each product to total profit  
-👉 Some products reduce overall profit  
+     Shows contribution of each product to total profit  
+     Some products reduce overall profit  
 
 #### ⚡ Scatter Plot (Sales vs Profit)
-👉 High sales doesn’t always mean high profit  
-👉 Identifies low-margin products  
+     High sales doesn’t always mean high profit  
+     Identifies low-margin products  
 
 #### 📊 Bar Chart (Profit by Region & Category)
-👉 Some regions perform better in specific categories  
+      Some regions perform better in specific categories  
 
 #### 📉 Combo Chart (Sales vs Discount)
-👉 High discounts reduce profitability  
+     High discounts reduce profitability  
 
 #### 🔻 Funnel Chart (Order Priority)
-👉 Most orders are Medium priority  
-👉 Critical orders are very few  
+    Most orders are Medium priority  
+    Critical orders are very few  
 
 ---
 
 ### 📌 Page 4: Customer & Shipping Analysis
 
-#### 👤 Bar Chart (Top Customers)
-👉 Few customers contribute large revenue (**Pareto effect**)  
+####  Bar Chart (Top Customers)
+      Few customers contribute large revenue (**Pareto effect**)  
 
-#### 🍩 Donut Chart (Sales by Segment)
-👉 Consumer segment dominates again  
+####  Donut Chart (Sales by Segment)
+      Consumer segment dominates again  
 
-#### 🚚 Bar Chart (Shipping Cost by Ship Mode)
-👉 Standard class used most  
-👉 Same-day shipping least used  
+####  Bar Chart (Shipping Cost by Ship Mode)
+     Standard class used most  
+     Same-day shipping least used  
 
 #### 📈 Line Chart (Delivery Days Trend)
-👉 Delivery time varies monthly  
-👉 Indicates possible logistics inefficiency  
+     Delivery time varies monthly  
+     Indicates possible logistics inefficiency  
 
 #### 📊 Stacked Bar (Orders by Region & Ship Mode)
-👉 Standard shipping dominates across regions  
+     Standard shipping dominates across regions  
 
 ---
 
